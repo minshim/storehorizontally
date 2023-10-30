@@ -9,7 +9,7 @@ margin: 0;
     background-color: rgba(227, 255, 17, 0);
     display: grid;
 
-    width: 70%;
+    width: 80%;
     
     /* 中央寄せ  */
     max-inline-size: max-content;
