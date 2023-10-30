@@ -16,6 +16,18 @@ margin: 0;
     margin-inline: auto;
 }
 
+@media  (max-width: 600px) { 
+  .container {
+    background-color: rgba(227, 255, 17, 0);
+    display: grid;
+    width: 100%;
+    
+    /* 中央寄せ  */
+    max-inline-size: max-content;
+    margin-inline: auto;
+}
+}
+
 img {
     width: 100%;
     margin: 0;
