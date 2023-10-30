@@ -1,0 +1,235 @@
+body {
+margin: 0;
+  }
+
+
+.container 
+{
+
+    background-color: rgba(227, 255, 17, 0);
+    display: grid;
+
+    width: 70%;
+    
+    /* 中央寄せ  */
+    max-inline-size: max-content;
+    margin-inline: auto;
+}
+
+img {
+    width: 100%;
+    margin: 0;
+}
+
+.profile-picture {
+    width: 180px;
+    position: relative;
+    bottom: 50px;
+    left: 50px;
+}
+h1{ font-family: Helvetica, Arial,  sans-serif;
+    letter-spacing: 2em;
+    font-size: 18px;
+    font-weight: 100;
+    color          : rgb(124, 146, 146);
+    padding: 40px 0 12px 0px;
+    margin: 0;
+
+}
+.container-header { 
+
+    max-width:  90%;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0.5px;
+    line-height: 1;
+    font-size: 22px;
+    font-weight: light;
+    color          : rgb(124, 146, 146);
+    mix-blend-mode : difference;
+    padding: 60px 0 12px 30px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+
+}
+
+
+
+
+.top {
+
+    position: fixed;
+    bottom: 12px;      
+   right: 40px; 
+    place-self: end;
+  
+    /* visual styling */
+    text-decoration: none;
+
+    background: rgba(255, 255, 255, 0);
+    mix-blend-mode : difference;
+
+    color          : rgb(124, 146, 146);
+    mix-blend-mode : difference;
+    white-space: nowrap;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0.5px;
+    line-height: 1.25;
+    font-size: 22px;
+    font-weight: light;
+}
+
+
+
+
+.profile {
+    padding: 60px 0 12px 30px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0.5px;
+    line-height: 1.25;
+    font-size: 22px;
+    font-weight: light;
+    color          : rgb(124, 146, 146);
+    mix-blend-mode : difference;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+    height: 1000px;
+    max-width:  90%;
+}
+
+
+#abc {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1px;
+    font-weight: 400;
+    color          : #ffffff;
+    
+
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color          : rgb(124, 146, 146);;
+    
+    
+
+}
+
+
+
+a:hover {
+    color: #00000049
+    
+}
+
+
+
+.footer {
+    
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0.5px;
+    line-height: 1.25;
+    font-size: 22px;
+    font-weight: light;
+    color          : rgb(124, 146, 146);
+    mix-blend-mode : difference;
+    position: fixed;
+    position: -webkit-fixed;
+    left: 30px;
+    bottom: 12px;
+
+ 
+}
+
+
+
+
+    
+
+/* 
+height: 100vh;
+overflow: auto;
+
+
+width: 1000px;
+height: 1000px;
+background-color:red;
+
+/* 中央寄せ  
+max-inline-size: max-content;
+margin-inline: auto;
+*/
+
+
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+
+    
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 50%;
+  margin-top: 1px;
+  
+  padding: 0;
+  color          : rgb(124, 146, 146);
+  mix-blend-mode : difference;
+  transition: none;
+  border-radius: 0;
+  user-select: none;
+}
+
+.prev {
+   left: 40px;
+   border-bottom: 1px solid;
+   border-left: 1px solid;
+   transform: rotate(45deg)
+}
+
+/* Position the "next button" to the right */
+.next {
+    border-bottom: 1.5px solid;
+    border-left: 1.5px solid;
+    transform: rotate(-135deg);
+  right: 40px;
+  border-radius: 0px 0 0 0px;
+  z-index: 100;
+}
+
+.prev {
+  left: 30;
+  border-radius: 0px 0 0 0px;
+  z-index: 100;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  color          : rgb(124, 146, 146);
+  mix-blend-mode : difference;
+    color:#ffffff;
+    border-bottom: 1.5px dotted;
+    border-left: 1.5px dotted;
+}
+
+
