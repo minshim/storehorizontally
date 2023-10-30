@@ -16,7 +16,7 @@ margin: 0;
     margin-inline: auto;
 }
 
-@media  (max-width: 600px) { 
+@media  (max-width: 800px) { 
   .container {
     background-color: rgba(227, 255, 17, 0);
     display: grid;
