@@ -8,11 +8,9 @@ font-size: 14px;
 .container 
 {
     background-color: rgba(227, 255, 17, 0);
-    display: grid;
+    display: block; /* gridが不要ならblockでOK */
     width: 100%;
-    max-inline-size: max-content;
-    margin-inline: auto;
-    
+    margin-inline: auto;    
 }
 
 .container-header { 
